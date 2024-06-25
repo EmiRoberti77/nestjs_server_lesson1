@@ -1,0 +1,10 @@
+npm i -g @nestjs/cli   
+start new project
+nest new <project_name>
+
+//create new module for users
+nest g module users 
+//create controller for users
+nest g controller users 
+//create service for users
+nest g service users
