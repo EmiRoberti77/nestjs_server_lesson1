@@ -12,7 +12,9 @@ import { UsersService } from './users.service';
 
 @Controller('users')
 export class UsersController {
-  userService = new UsersService();
+  //create singleton instance of userService
+  constructor(private readonly userService: UsersService) {}
+
   @Get() //GET /users
   findAll(@Query('role') role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {
     return this.userService.findAll(role);
