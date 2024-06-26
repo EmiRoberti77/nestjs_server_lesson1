@@ -8,3 +8,11 @@ nest g module users
 nest g controller users 
 //create service for users
 nest g service users
+
+(06:41:32 on main ✹ ✭)──> nest g resource users 
+? What transport layer do you use? (Use arrow keys)
+❯ REST API 
+  GraphQL (code first) 
+  GraphQL (schema first) 
+  Microservice (non-HTTP) 
+  WebSockets 
