@@ -5,4 +5,4 @@ npx prisma migrate dev --name init ( dev means save the sql statements)
 //this will now have created a schema.  if you want to make a change to the schema
 //make the change then run "npx prisma generate" when that is done
 //run the migration with a new name
-//npr prisma migrate dev --name schema_change_1
+//npx prisma migrate dev --name schema_change_1
